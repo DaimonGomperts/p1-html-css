@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+    <form action="result.html" method="post">
+      <div>
+        <label for="firstname">voornaam</label>
+        <input type="text" id="firstname" name="firstname" required />
+      </div>
+
+      <div>
+        <label for="lastname">achternaam</label>
+        <input type="text" id="lastname" name="lastname" required />
+      </div>
+
+      
+      <div>
+        <label for="date">reservering</label>
+        <input type="date" name="date" id="date" min="2022-9-16" required />
+      </div>
+
+      <div>
+        <label for="gender">geslacht</label>
+      </div>
+      <div>
+        <label for="female">vrouw</label>
+        <input type="radio" id="female" value="female" name="gender" required />
+        <label for="male">man</label>
+        <input type="radio" id="male" value="male" name="gender" required />
+      </div>
+      <div>
+        <label for="street">straatnaam</label>
+        <input type="text" name="street" id="street" required />
+        <label for="housenumber">huisnummer</label>
+        <input type="text" name="housenumber" id="housenumber" required />
+      </div>
+      <div>
+        <label for="postalcode">postcode</label>
+        <input type="text" name="postalcode" id="postalcode" required />
+      </div>
+      <div>
+        <label for="state">stad</label>
+        <input type="text" name="state" id="state" required />
+      </div>
+      <div>
+        <label for="country">land</label>
+        <input type="text" name="country" id="country" required />
+      </div>
+      <div>
+        <label for="Bsn">Bsn nummer</label>
+        <input type="text" name="Bsn" id="Bsn" max="9" required />
+      </div>
+      <div>
+        <label for="vacation">waar wilt u</label>
+        <select name="vacation" id="vacation">
+          waar wilt u
+          <optgroup>
+            <option value="aruba">aruba</option>
+            <option value="cuba">cuba</option>
+            <option value="colombia">colombia</option>
+          </optgroup>
+        </select>
+      </div>
+      <div>
+        <label for="date">vertrek datum</label>
+        <input type="date" name="date" id="date" min="2022-9-16" />
+      </div>
+      <div>
+        <label for="date">datum van terugkomst</label>
+        <input type="date" name="date" id="date" />
+      </div>
+      <div>
+        <label for="people">aantal mensen</label>
+        <input type="text" name="people" id="people" max="4" min="1" />
+      </div>
+<div>
+    <label for="email">mail</label>
+    <input type="text" name="email" id="email">
+</div>
+
+<div>
+    <label for="password">wachtwoord</label>
+    <input type="password" name="password" id="password" required />
+  </div>
+
+
+      <button type="sumbit">boek nu</button>
+    </form>
+  </body>
+</html>
