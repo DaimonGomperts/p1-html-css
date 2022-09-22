@@ -19,11 +19,30 @@ h3 {
 
 p {
   color: #4d4d4d;
-
 }
 
 a {
   color: #8a2be2;
   text-decoration: none;
 }
-.p1{font-weight: bold;}
+.p1 {
+  font-weight: bold;
+  color: white;
+}
+header {
+  width: 100vw;
+  height: 33vh;
+
+  background-color: lightblue;
+
+  background-image: url(./god\ of\ war.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+article{
+    border-style: solid;
+    color: #ff3300; 
+    border-width: 5px 15px;/*5px on top and botom /*15px on the sides
+
+}
