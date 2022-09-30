@@ -8,6 +8,7 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  background-color: black;
 }
 
 nav {
@@ -36,4 +37,69 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+
+p{
+  color: aliceblue;
+}
+
+footer{
+  color: #00a8c7;
+  position: absolute;
+  font-size: 2rem;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container{
+  background-image: url("./img/hacker.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+h2{
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+h1{
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+p{
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.div1{
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.div2{display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+section img{
+  height: 40vh;
+  width: 40vw;
+}
+
+.phpf{
+  height: 40vh;
+  width: 40vw;
 }
