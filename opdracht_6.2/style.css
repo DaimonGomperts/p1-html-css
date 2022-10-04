@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    width: 1200px
+}
+
+ .kid1{
+    height: 200px;
+    width: 200px;
+        background-color: blue;
+ }
+.kid2{
+    height: 200px;
+    width: 200px;
+   background-color: black;
+}
+.kid3{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.kid4{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
